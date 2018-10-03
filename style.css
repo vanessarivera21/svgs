@@ -1,15 +1,11 @@
-.cloud{
+.rain-cloud .cloud{
 	fill: #606060;
 }
 
-.cloud:hover {
-	fill: #eaeaea;
+.rain-cloud .rain {
+	fill: rgba(0,0,0,0);
 }
 
-.rain{
-	fill:#508BE8;
-}
-
-.rain:hover{
-	fill: #76A5EF;
+.rain-cloud:hover .rain{
+	fill: #2566B2;
 }
